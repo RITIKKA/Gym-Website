@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Gym's Website</title>
+    <style>
+
+      *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .nav-bar{
+        background: #1d4052;
+        color: #fff;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+  
+    .nav-bar .title{
+      font-size: 25px;
+      
+    }
+  
+    .nav-bar .title:hover{
+      color: crimson;
+    }
+  
+    .nav-bar .logo{
+        height: 90px;
+        width: 95px;
+        border-radius: 5%;
+    }
+  
+    .nav-bar .logo:hover{
+      border: 2px solid black;
+      transition: .3s;
+    }
+  
+    .nav-bar img{
+        height: 45px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+   
+    a:hover{
+      color: crimson;
+    }
+    
+    .menu-right{
+        text-align: right;
+    }
+
+
+    ul li{
+        display: inline-block;
+        margin: 20px;
+        list-style: none;
+        color: #fff;
+        
+    }
+  
+    ul li:hover{
+      color: crimson;
+    }
+
+       .row{
+           display: flex;
+       }
+
+       .column {
+        flex: 33.33%;
+        padding: 5px;
+        margin-left: 20px;
+      }
+
+      p{
+          width: 70%;
+      }
+
+      #footer {
+        padding: 7% 15%;
+        background-color: grey;
+        text-align: center;
+        margin: 20px;
+        justify-content: space-between;
+    }
+
+    
+    #footer .copyright{
+      margin-left: 130px;
+      margin-top: 20px;
+    }
+    .social-icon {
+        margin: 20px 10px;
+        text-align: center;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .bottom-container {
+      background-color: #66BFBF;
+      padding: 50px 0 20px;
+    }
+    </style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+     <p class="title"><img class="logo" src="./logo.png"> Gym Website </p>
+
+        <div class="menu-right">
+           <ul id="menu">
+            <li><a href="./Gym_home.html">Home</a></li>    
+            <li><a href="./Gym_nutrition.html">Nutrition</a></li>    
+            <li><a href="./Gym_blog.html">Blog</a></li>    
+            <li><a href="">Logout</a></li>      
+            </ul>
+        </div>
+    </header>
+
+    <h1>Nutritious Food</h1>
+
+    <div class="row">
+        <div class="column">
+          <img src="./carbohydrates.jpg" height="200px">
+          <p>Carbohydrates are found in a wide array of both healthy and unhealthy foods—bread, beans, milk, popcorn, potatoes, cookies, spaghetti, soft drinks, corn, and cherry pie. They also come in a variety of forms</p>
+        </div>
+        <div class="column">
+          <img src="./juices.jfif" >
+          <p>Juice is always a great way to replenish key vitamins and nutrients after an intense workout. The natural sugars in orange juice (preferably freshly squeezed, or at least not from concentrate) give your body a much-needed refueling.</p>
+        </div>
+        <div class="column">
+          <img src="./protein.jfif" >
+          <p>Protein is an essential macronutrient that helps build muscle, repair tissue, and make enzymes and hormones. Using protein powder may also aid weight loss and help people tone their muscles. It gives your muscles the amino acids necessary to repair and rebuild.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="./vegetables.jfif" height="200px">
+          <p>Leafy greens are packed with nitrates, which the body converts into nitric oxide. “Nitric oxide relaxes the blood vessels and causes them to widen. This allows for greater delivery of oxygen to the muscles.</p>
+        </div>
+        <div class="column">
+          <img src="./fruits.jfif" >
+          <p>Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids. Eating a diet high in fruits and vegetables can reduce a person's risk of developing heart disease, cancer, inflammation, and diabetes.</p>
+        </div>
+        <div class="column">
+          <img src="./oatmeal.jfif" >
+          <p>Oats are a great form of carbohydrate which is incredibly beneficial for preparing your muscles for working out – carbs supply the body with the energy it needs. Oats are digested at a slow pace meaning those consuming them before workouts will experience a longer payoff of its energising benefits.</p>
+        </div>
+      </div>
+
+      
+    <footer id="footer">
+      <a href="https://www.linkedin.com/in/ritika-mittal-6827181b3/">Linkedin</a>
+      <a href="https://github.com/RITIKKA/CV">Github</a>
+      <a href="file:///C:/Users/DELL/Documents/Project/Ritika's.html">Website</a>
+      <p class="copyright">@ 2021 Ritika Mittal</p>
+  </footer>
+</body>
+</html>
